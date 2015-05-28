@@ -13,6 +13,10 @@
 		B51075131ABEE3AB00A5C40A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51075121ABEE3AB00A5C40A /* Images.xcassets */; };
 		B51075161ABEE3AB00A5C40A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51075141ABEE3AB00A5C40A /* LaunchScreen.xib */; };
 		B51075221ABEE3AB00A5C40A /* _LionsAndTigersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51075211ABEE3AB00A5C40A /* _LionsAndTigersTests.swift */; };
+		B510752C1ABEE55100A5C40A /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B510752B1ABEE55100A5C40A /* Tiger.swift */; };
+		B510752E1ABEE74900A5C40A /* LionsAndTigersAssets in Resources */ = {isa = PBXBuildFile; fileRef = B510752D1ABEE74900A5C40A /* LionsAndTigersAssets */; };
+		B5327F921AC36605002D2FB1 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5327F911AC36605002D2FB1 /* Lion.swift */; };
+		B5327F941AC4C08B002D2FB1 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5327F931AC4C08B002D2FB1 /* LionCub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		B510751B1ABEE3AB00A5C40A /* 2LionsAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2LionsAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51075201ABEE3AB00A5C40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51075211ABEE3AB00A5C40A /* _LionsAndTigersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _LionsAndTigersTests.swift; sourceTree = "<group>"; };
+		B510752B1ABEE55100A5C40A /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
+		B510752D1ABEE74900A5C40A /* LionsAndTigersAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LionsAndTigersAssets; sourceTree = "<group>"; };
+		B5327F911AC36605002D2FB1 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		B5327F931AC4C08B002D2FB1 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,10 @@
 			children = (
 				B510750B1ABEE3AB00A5C40A /* AppDelegate.swift */,
 				B510750D1ABEE3AB00A5C40A /* ViewController.swift */,
+				B5327F931AC4C08B002D2FB1 /* LionCub.swift */,
+				B5327F911AC36605002D2FB1 /* Lion.swift */,
 				B510750F1ABEE3AB00A5C40A /* Main.storyboard */,
+				B510752B1ABEE55100A5C40A /* Tiger.swift */,
 				B51075121ABEE3AB00A5C40A /* Images.xcassets */,
 				B51075141ABEE3AB00A5C40A /* LaunchScreen.xib */,
 				B51075091ABEE3AB00A5C40A /* Supporting Files */,
@@ -90,6 +101,7 @@
 		B51075091ABEE3AB00A5C40A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B510752D1ABEE74900A5C40A /* LionsAndTigersAssets */,
 				B510750A1ABEE3AB00A5C40A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51075111ABEE3AB00A5C40A /* Main.storyboard in Resources */,
+				B510752E1ABEE74900A5C40A /* LionsAndTigersAssets in Resources */,
 				B51075161ABEE3AB00A5C40A /* LaunchScreen.xib in Resources */,
 				B51075131ABEE3AB00A5C40A /* Images.xcassets in Resources */,
 			);
@@ -213,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B510750E1ABEE3AB00A5C40A /* ViewController.swift in Sources */,
+				B510752C1ABEE55100A5C40A /* Tiger.swift in Sources */,
 				B510750C1ABEE3AB00A5C40A /* AppDelegate.swift in Sources */,
+				B5327F941AC4C08B002D2FB1 /* LionCub.swift in Sources */,
+				B5327F921AC36605002D2FB1 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				B51075271ABEE3AB00A5C40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B51075281ABEE3AB00A5C40A /* Build configuration list for PBXNativeTarget "2LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				B510752A1ABEE3AB00A5C40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
